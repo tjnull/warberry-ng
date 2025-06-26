@@ -127,7 +127,7 @@ echo "[INFO] Starting Kali ARM Security Tool Setup..." | tee -a "$LOGFILE"
 # System Update & Base Tools
 # ========================
 echo "[INFO] Updating and upgrading system packages..." | tee -a "$LOGFILE"
-apt update && apt upgrade -y | tee -a "$LOGFILE"
+apt update && apt full-upgrade -y | tee -a "$LOGFILE"
 
 echo "[INFO] Installing base packages..." | tee -a "$LOGFILE"
 apt install -y git curl wget pipx net-tools lsb-release software-properties-common obsidian tmux | tee -a "$LOGFILE"
