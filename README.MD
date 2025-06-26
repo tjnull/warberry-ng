@@ -19,7 +19,7 @@ Inspired by the original [Warberry Pi](https://github.com/secgroundzero/warberry
 ## Requirements
 
 - Kali Linux ARM Image (Raspberry Pi 3/4/5 recommended)
-- (https://www.kali.org/get-kali/#kali-arm)[https://www.kali.org/get-kali/#kali-arm]
+- https://www.kali.org/get-kali/#kali-arm[https://www.kali.org/get-kali/#kali-arm]
 
 ## License
 
@@ -47,5 +47,6 @@ By using this project, you agree to:
 ## Credit
 
 - Original Warberry Pi creator @sec_groundzero for giving me the inspiration to make my own.
+- Steev for continued development, maintenance, and innovations for the Kali Linux arm build.
 
 
