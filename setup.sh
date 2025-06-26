@@ -17,7 +17,7 @@ echo "[INFO] Starting Kali ARM Security Tool Setup..." | tee -a "$LOGFILE"
 
 # Update & upgrade system
 echo "[INFO] Updating and upgrading system packages..." | tee -a "$LOGFILE"
-apt update && apt full-upgrade -y | tee -a "$LOGFILE"
+apt update && apt upgrade -y | tee -a "$LOGFILE"
 
 # Install base tools
 echo "[INFO] Installing base packages..." | tee -a "$LOGFILE"
