@@ -18,8 +18,8 @@ Inspired by the original [Warberry Pi](https://github.com/secgroundzero/warberry
 
 ## Requirements
 
-- Kali Linux ARM Image (Raspberry Pi 3/4/5 recommended)
-- https://www.kali.org/get-kali/#kali-arm[https://www.kali.org/get-kali/#kali-arm]
+- Kali Linux ARM Image (Raspberry Pi 3/4/5 recommended) https://www.kali.org/get-kali/#kali-arm
+- Minimum 32GB for storage. (Microsd, USB, NVMe)
 
 ## License
 
