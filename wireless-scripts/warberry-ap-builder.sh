@@ -213,8 +213,8 @@ WantedBy=multi-user.target
 EOF
 
   sudo systemctl daemon-reload
-  sudo systemctl enable "$SERVICE_NAME"
-  sudo systemctl start "$SERVICE_NAME"
+  sudo systemctl enable --now "$SERVICE_NAME"
+ 
 
   sleep 2
   if systemctl is-active --quiet "$SERVICE_NAME"; then
