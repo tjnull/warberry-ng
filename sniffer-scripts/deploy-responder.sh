@@ -160,7 +160,7 @@ add_to_startup() {
 if [[ "$mode" == "2" ]]; then
     session_name="responder_$timestamp"
     echo -e "${CYAN}[*] Launching in background (tmux session: $session_name)${NC}"
-    tmux new-session -d -s "$session_name" "cd /usr/share/responder && responder -I $iface -wdv | tee $log_file"
+    tmux new-session -d -s "$session_name" "responder -I $iface -wdv | tee $log_file"
     echo -e "${GREEN}[✓] Running in tmux session: $session_name${NC}"
     echo -e "${CYAN}[*] Use: tmux attach -t $session_name${NC}"
 elif [[ "$mode" == "3" ]]; then
